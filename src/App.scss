@@ -1,0 +1,33 @@
+html {
+  background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+}
+
+.page-wrapper {
+  height: 100vh;
+}
+
+.card {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0.2) 100%
+  );
+  box-shadow: inset 0px 0px 60px rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 100px 20px;
+}
+
+.card-info {
+  width: 100%;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}

@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import "./App.scss";
+import CircleTop from "./components/CircleTop";
+import CircleBottom from "./components/CircleBottom";
 import Card from "./components/Card";
 
 class App extends Component {
@@ -15,6 +18,8 @@ class App extends Component {
   render() {
     return (
       <div className="page-wrapper">
+        <CircleTop />
+        <CircleBottom />
         <Card user={this.state.user} />
       </div>
     );
