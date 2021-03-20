@@ -2,8 +2,10 @@ html {
   background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
 }
 
-.page-wrapper {
+.card-wrapper {
   height: 100vh;
+  max-width: 510px;
+  margin: auto;
 }
 
 .card {
@@ -16,14 +18,39 @@ html {
   backdrop-filter: blur(20px);
   border-radius: 20px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   margin: 100px 20px;
+  position: relative;
+}
+
+.card-background-top {
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(
+    94.51deg,
+    rgba(2, 178, 254, 0.83) 0.79%,
+    rgba(2, 178, 254, 0.49) 98.87%
+  );
+  box-shadow: inset 0px 0px 60px rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(20px);
+  border-radius: 20px 20px 0px 0px;
+}
+
+.profile-image {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 47px;
 }
 
 .card-info {
   width: 100%;
+  margin-top: 40px;
 }
 
 .stats {

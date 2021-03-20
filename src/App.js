@@ -17,7 +17,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="page-wrapper">
+      <div className="card-wrapper">
         <CircleTop />
         <CircleBottom />
         <Card user={this.state.user} />
