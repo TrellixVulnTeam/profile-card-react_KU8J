@@ -4,3 +4,7 @@ Entire image will be App.js
 Card component will house the top background, profile image, user info
     Card will compose of two divs --> one for the background color and another for the information
         Inside info div there will be two additional divs --> one for the NAME and one for the STATS
+
+
+
+Between 510px and 767px card-wrapper needs to have no max-width

@@ -4,7 +4,6 @@ html {
 
 .card-wrapper {
   height: 100vh;
-  max-width: 510px;
   margin: auto;
   position: relative;
   overflow: hidden;
@@ -24,6 +23,12 @@ html {
   position: absolute;
   top: -107px;
   left: -151px;
+  @media (min-width: 768px) {
+    width: 500px;
+    height: 500px;
+    top: -191px;
+    left: -236px;
+  }
 }
 
 .circle-bottom {
@@ -40,6 +45,12 @@ html {
   position: absolute;
   bottom: -80px;
   right: -166px;
+  @media (min-width: 768px) {
+    width: 500px;
+    height: 500px;
+    bottom: -237px;
+    right: -207px;
+  }
 }
 
 .card {
@@ -56,8 +67,16 @@ html {
   justify-content: center;
   align-items: center;
   text-align: center;
+  max-width: 510px;
   margin: 100px 20px;
   position: relative;
+  @media (min-width: 551px) and (max-width: 767px) {
+    margin: 100px auto;
+  }
+  @media (min-width: 768px) {
+    max-width: 510px;
+    margin: 100px auto;
+  }
 }
 
 .card-background-top {
